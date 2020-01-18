@@ -1,0 +1,41 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabBar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabBar/component/component",
+			"style": {
+				"navigationBarTitleText": "组件"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "stan ui",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#333",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabBar/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "主题"
+			},
+			{
+				"pagePath": "pages/tabBar/component/component",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "组件"
+			}
+		]
+	}
+}
